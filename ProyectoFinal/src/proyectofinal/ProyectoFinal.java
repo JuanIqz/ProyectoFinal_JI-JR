@@ -35,7 +35,12 @@ public class ProyectoFinal {
         while (cont1 <= 5 & cont2 <= 5) {//codigo principal  
             lea.nextLine();
             MatrizBola(matriz3);
-            System.out.println(lineas);
+//            System.out.println(lineas);
+            String linea[]=new String [7];
+            for (int i = 0; i < linea.length; i++) {
+                String barrita="-  ";
+                System.out.print(barrita);
+            }
             System.out.println("");
             MatrizJugador1(matriz1);
             System.out.println(lineas);
