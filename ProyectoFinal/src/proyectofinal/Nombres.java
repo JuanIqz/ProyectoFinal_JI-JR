@@ -10,9 +10,6 @@ package proyectofinal;
  */
 public class Nombres {
     
-
-    
-    
    public String NP1 (){
        return "Jugador 1";
    }
@@ -21,8 +18,10 @@ public class Nombres {
        return "Jugador 2";
    }
    
-   public void imprimir (String Nombre){
+   public void imprimir (String Nombre){//constructor que permite la funcionalidad de impresion de la clase
        System.out.println(Nombre);
    }
-   
+    
 }
+   
+
